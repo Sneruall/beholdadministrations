@@ -199,6 +199,8 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-white-transparent, .btn-link.text-white-transparent, a.text-white-transparent-hover:hover { color: rgba(255,255,255,0.7); }
 .text-medium-white-transparent, .btn-link.text-medium-white-transparent, a.text-very-light-white-transparent-hover:hover { color: rgba(255,255,255,0.5); }
 .text-very-light-white-transparent, .btn-link.text-very-light-white-transparent, a.text-very-light-white-transparent-hover:hover { color: rgba(255,255,255,0.3); }
+/* ADDED */
+.text-behold-blue { color: #536a77;}
 
 /* text gradient color */
 .text-gradient-magenta-orange { background: linear-gradient(to right, #e42464, #e42464, #f44f5c, #fa6259, #ff7357); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
@@ -417,6 +419,8 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-solitude { background-color: #f4f5f9; }
 .bg-east-bay { background-color: #4c505f; }
 .bg-quartz { background-color: #e1e2e9; }
+/* ADDED */
+.bg-behold-blue { background-color: #536a77;}
 
 .bg-transparent-black { background-color: rgba(0, 0, 0, 0.70); }
 .bg-transparent-black-light { background-color: rgba(0, 0, 0, 0.35); }
