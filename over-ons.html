@@ -2,6 +2,15 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187747465-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187747465-4');
+    </script>    
     <title>Over Behold Administrations - Financiële administratie en fiscale aangiften</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -183,8 +192,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <form id="Contactformulier-over-ons" action="bericht-verzonden.html" method="post"
-                        novalidate="">
+                    <form id="Contactformulier-over-ons" action="bericht-verzonden" method="post" netlify>
                         <div class="row row-cols-1 row-cols-md-2">
                             <div class="col margin-4-rem-bottom sm-margin-25px-bottom">
                                 <input class="medium-input bg-white margin-25px-bottom required" type="text" name="name"
@@ -203,7 +211,7 @@
                                     <label for="terms_condition" class="text-small d-inline-block align-top w-85 md-w-90 xs-w-85">I accept the terms & conditions and I understand that my data will be hold securely in accordance with the <a href="privacy.html" target="_blank" class="text-decoration-underline text-extra-dark-gray">privacy policy</a>.</label> -->
                             </div>
                             <div class="col text-center text-md-right">
-                                <input type="hidden" name="redirect" value="">
+                                <input type="hidden" name="redirect" value="bericht-verzonden">
                                 <button id="project-contact-us-button"
                                     class="btn btn-medium btn-fancy btn-golden-brown mb-0 submit" type="submit">Bericht
                                     verzenden</button>
